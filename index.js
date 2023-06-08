@@ -6,8 +6,11 @@ const boxes = document.getElementsByClassName('box')
 imgbox.addEventListener('dragstart', (e) => {
     // what happen when we grab the image
     console.log("dragstart has been triggered");
+    // when we hold the image it create border
     e.target.className += ' hold'
     setTimeout(() => {
+
+        // it hide the image
         e.target.className += ' hide'
     })
 
@@ -23,8 +26,9 @@ for (box of boxes) {
         e.preventDefault();
         console.log('dragOver has been triggered')
     })
-    box.addEventListener('dragenter', () => {
+    box.addEventListener('dragenter', (e) => {
         console.log('dragenter has been triggered')
+        e.target.className += ' change'
     })
     box.addEventListener('dragleave', () => {
         console.log('dragleave has been triggered')
