@@ -12,7 +12,7 @@ imgbox.addEventListener('dragstart', (e) => {
 
         // it hide the image
         e.target.className += ' hide'
-    })
+    }, 0)
 
 })
 imgbox.addEventListener('dragend', (e) => {
@@ -21,7 +21,7 @@ imgbox.addEventListener('dragend', (e) => {
     e.target.className = 'imgbox'
     setTimeout(() => {
         alert("dragging the image is successful")
-    })
+    }, 10)
   
 })
 
