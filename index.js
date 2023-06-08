@@ -19,6 +19,10 @@ imgbox.addEventListener('dragend', (e) => {
     // what happen when we leave the image
     console.log("dragend has been triggered");
     e.target.className = 'imgbox'
+    setTimeout(() => {
+        alert("dragging the image is successful")
+    })
+  
 })
 
 for (box of boxes) {
