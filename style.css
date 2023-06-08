@@ -32,7 +32,7 @@ body {
 
 
 .hold {
-    border: 4px solid red;
+    border: 4px solid #497174;
 }
 
 .hide {
@@ -40,6 +40,6 @@ body {
 }
 
 .change {
-    background-color: violet;
+    background-color: #eb6440;
     border-style: dashed;
 }
