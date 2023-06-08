@@ -1,24 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    background: rgb(0, 0, 255);
+body {
+    /* background: rgb(0, 198, 251); */
+    height: 100vh;
+    background: rgb(0,198,251);
+    background: radial-gradient(circle, rgba(0,198,251,1) 0%, rgba(0,91,234,1) 100%);
 
 }
-.wrapper{
+
+.wrapper {
     display: flex;
     justify-content: center;
 }
-.box{
+
+.box {
     height: 500px;
     width: 338px;
     background-color: aliceblue;
     margin: 10px;
 }
 
-.imgbox{
+.imgbox {
     background-image: url('dhoni_bhai.jpeg');
     position: relative;
     height: 100%;
@@ -26,15 +31,15 @@ body{
 }
 
 
-.hold{
-    border: 4px solid red ;
+.hold {
+    border: 4px solid red;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-.change{
+.change {
     background-color: violet;
     border-style: dashed;
 }
