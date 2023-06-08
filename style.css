@@ -1,21 +1,26 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
-/* 
+}
+
 body{
     background: rgb(0, 0, 255);
-} */
 
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height: 500px;
+    width: 338px;
+    background-color: aliceblue;
+    margin: 10px;
+}
 
 .img-box{
     background-image: url('dhoni_bhai.jpeg');
     position: relative;
     height: 100%;
-    
-    /* width: 100%; */
-}
-.box{
-    height: 500px;
-    width: 338px;
+    cursor: pointer;
 }
